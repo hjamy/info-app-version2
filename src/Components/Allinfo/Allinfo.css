@@ -1,0 +1,12 @@
+.allinfo {
+    display: flex;
+}
+
+.userInfo-container {
+    width: 30%;
+    margin: auto;
+}
+
+.connectedList-container {
+    width: 25%;
+}
