@@ -18,6 +18,7 @@ const Allinfo = () => {
     }
 
     console.log(information);
+    console.log(count);
     return (
         <div className='allinfo'>
             <div className='userInfo-container'>
@@ -29,6 +30,10 @@ const Allinfo = () => {
             </div>
             <div className='connectedList-container'>
                 <Connect count={count}></Connect>
+                {/* {
+                    
+                    count.map( cc => <Connect cc={cc}></Connect>)
+                } */}
             </div>
         </div>
     );

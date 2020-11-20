@@ -14,6 +14,11 @@ const Connect = (props) => {
         <div className='connect'>
             <h3>Connected Users: {count.length}</h3>
             <h4>Total Salary: {total}</h4>
+            <h3>
+            {
+                count.map(con => <p>{con.name},<span> </span></p>)
+            }
+            </h3>
         </div>
     );
 };
